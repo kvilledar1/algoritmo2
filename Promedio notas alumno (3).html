@@ -1,0 +1,25 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8"> 
+    <title> PROMEDIO DE NOTAS ALUMNO </title>
+</head>
+
+<body>
+    <script>
+        let nt1;
+        let nt2;
+        let nt3; //Declaramos las variables que vamos a necesitar 
+
+        nt1 = parseInt(prompt('Ingrese su primera nota')); 
+        nt2 = parseInt(prompt('Ingrese su segunda nota'));
+        nt3 = parseInt(prompt('Ingrese su tercera nota')); //Asignamos a cada variable el tipo de dato que vamos a recibir, pedimos que ingresen los datos.
+        let promedio = (nt1 + nt2 + nt3) / 3; //Utilizamos la formula que es el total de las notas divido la cantidad de notas, en este caso 3.
+        parseInt(promedio); //Asignamos promedio como dato entero.
+        document.write('El promedio de sus tres notas es de: ' + promedio); //Mostramos mensaje en pantalla
+    </script>
+</body>
+</html>
